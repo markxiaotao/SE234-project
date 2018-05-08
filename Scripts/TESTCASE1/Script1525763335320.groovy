@@ -24,5 +24,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.39.163.150:8091/')
 
+WebUI.verifyElementText(findTestObject('Page_Login/h1_SE 234 Project'), 'SE 234 Project')
+
+WebUI.verifyElementText(findTestObject('Page_Login/p_This is the mock app for the'), 'This is the mock app for the SE 234 project')
+
+WebUI.verifyElementText(findTestObject('Page_Login/h2_Login'), 'Login')
+
+WebUI.verifyElementText(findTestObject('Page_Login/label_Username'), 'Username')
+
+WebUI.verifyElementText(findTestObject('Page_Login/label_Password'), 'Password')
+
+WebUI.verifyElementText(findTestObject('Page_Login/button_Login'), 'Login')
+
 WebUI.closeBrowser()
 
