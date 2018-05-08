@@ -2,15 +2,7 @@
 <TestCaseEntity>
    <description>At the login page, The user can login to the system
 o If the user is admin role, the system will go to the admin page which consists of
-“Products”, and “Total Transaction” menus
-o If the user is user role, the system will go to the user page which consists of “Products”
-and “Carts” menus
-o If the user name and password is not correct, the error message, “Username/password
-is incorrect” is shown
-o If the user empties the user name box, the warning message “Username is required” is
-shown
-o If the user empties the password box, the warning message “Password is required” is
-shown</description>
+“Products”, and “Total Transaction” menus</description>
    <name>TESTCASE2</name>
    <tag></tag>
    <comment></comment>

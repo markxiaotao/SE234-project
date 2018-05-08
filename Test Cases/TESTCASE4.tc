@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>At the login page, The user can login to the system
+If the user name and password is not correct, the error message, “Username/password
+is incorrect” is shown</description>
+   <name>TESTCASE4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>600c2cf3-76b3-4487-8f89-3658b09ed1de</testCaseGuid>
+</TestCaseEntity>
