@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowALLTransactionsAfterAdminClickTotalTransaction,Chrome 66.0.3359.139,"If the user login to the admin page, when open the \u201CTotal Transaction\u201D menu, all the carts,\nwhich have been added must be shown with the summaries of all carts.",2018-05-09 11:55:24,2018-05-09 11:56:01,37.573s,FAILED
+,,,,,,
+Test Cases/TESTCASE6,Chrome 66.0.3359.139,,2018-05-09 11:55:24,2018-05-09 11:56:01,36.506s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 11:55:24,2018-05-09 11:55:27,2.755s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 11:55:27,2018-05-09 11:56:00,33.040s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:56:00,2018-05-09 11:56:01,0.388s,FAILED
