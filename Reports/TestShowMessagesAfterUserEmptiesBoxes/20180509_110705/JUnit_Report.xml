@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestShowMessagesAfterUserEmptiesBoxes" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="TestShowMessagesAfterUserEmptiesBoxes" tests="1" failures="0" errors="0" time="13" timestamp="2018-05-09 11:07:06" hostname="ASUS - 10.80.151.231" id="Test Suites/TestShowMessagesAfterUserEmptiesBoxes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowMessagesAfterUserEmptiesBoxes\\20180509_110705"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowMessagesAfterUserEmptiesBoxes\\20180509_110705\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="cd923f7725ba8f691a856ac4e136e9c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE4" classname="Test Cases/TESTCASE4" status="PASSED">
+         <system-out><![CDATA[2018-05-09 11:07:07 - [TEST_CASE][PASSED] - Test Cases/TESTCASE4: Test Cases/TESTCASE4
+
+2018-05-09 11:07:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:07:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:07:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page_Login/input_username' is double clicked on
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_username' is double clicked on
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page_Login/input_password' is double clicked on
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_password' is double clicked on
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/app-login_Login' is clicked on
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/app-login_Login' is clicked on
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Login/label_Username is required' are matched.
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/label_Username is required' are matched.
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Login/label_Password is required' are matched.
+
+2018-05-09 11:07:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/label_Password is required' are matched.
+
+2018-05-09 11:07:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 11:07:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 11:07:06 - [TEST_SUITE][PASSED] - TestShowMessagesAfterUserEmptiesBoxes: Test Cases/TESTCASE4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

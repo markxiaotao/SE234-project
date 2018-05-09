@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestShowAllProductsInProductsPage" time="45" tests="3" failures="0" errors="0">
+   <testsuite name="TestShowAllProductsInProductsPage" tests="3" failures="0" errors="0" time="45" timestamp="2018-05-09 10:56:28" hostname="ASUS - 10.80.151.231" id="Test Suites/TestShowAllProductsInProductsPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_105627"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_105627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="fcb8debbcbe98bd6210b6a88c744229f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="PASSED">
+         <system-out><![CDATA[2018-05-09 10:56:28 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A
+
+2018-05-09 10:56:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 10:56:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 10:56:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:56:44 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:56:44 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:56:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:56:44 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:56:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:56:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:56:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 10:56:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="PASSED">
+         <system-out><![CDATA[2018-05-09 10:56:46 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A
+
+2018-05-09 10:56:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 10:56:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 10:56:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:56:57 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:56:57 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:56:57 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:56:57 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:56:58 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:56:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:56:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:56:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:56:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:56:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:56:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:56:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:56:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 10:57:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="PASSED">
+         <system-out><![CDATA[2018-05-09 10:57:00 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A
+
+2018-05-09 10:57:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 10:57:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 10:57:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:57:11 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 10:57:11 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:57:12 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 10:57:12 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:57:12 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 10:57:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 10:57:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:57:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-09 10:57:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:57:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-09 10:57:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:57:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Orange' are matched.
+
+2018-05-09 10:57:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:57:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Papaya' are matched.
+
+2018-05-09 10:57:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:57:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/Page_ProjectBackend/h5_Rambutan' are matched.
+
+2018-05-09 10:57:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 10:57:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 10:56:28 - [TEST_SUITE][PASSED] - TestShowAllProductsInProductsPage: Test Cases/TESTCASE-A]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

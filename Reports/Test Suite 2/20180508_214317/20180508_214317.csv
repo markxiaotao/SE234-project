@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,Chrome 66.0.3359.139,,2018-05-08 21:43:21,2018-05-08 21:43:33,12.122s,PASSED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-08 21:43:21,2018-05-08 21:43:33,11.680s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 21:43:22,2018-05-08 21:43:27,4.985s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 21:43:27,2018-05-08 21:43:31,4.021s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:43:31,2018-05-08 21:43:31,0.273s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 21:43:31,2018-05-08 21:43:31,0.139s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 21:43:31,2018-05-08 21:43:31,0.143s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-08 21:43:31,2018-05-08 21:43:32,1.082s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-08 21:43:32,2018-05-08 21:43:32,0.036s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 21:43:32,2018-05-08 21:43:33,0.735s,PASSED

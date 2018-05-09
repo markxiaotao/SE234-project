@@ -8,92 +8,50 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7483d156-5b84-43d3-a38a-38031d5ed8d3</id>
+      <id>19fc84a1-8664-4aba-8dfb-f54dc7802fa7</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7a730419-ca13-4563-adac-13068e38e618</id>
+      <id>06a070d7-f45c-4462-9ee1-e4577ce0ba9c</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>17b269e0-36a7-4bef-86c8-5ebc851f067a</id>
+      <id>d76224a3-baeb-4209-b667-ca5be5287b80</id>
       <masked>false</masked>
-      <name>role</name>
+      <name>productName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9997a994-cf49-4265-9ce5-e13b1e607bdb</id>
+      <id>6b6d5600-f5bf-49b8-a912-152793c46689</id>
       <masked>false</masked>
-      <name>productId</name>
+      <name>productName2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>40d996dd-e724-4e4b-8cdc-8fd6bb5074c1</id>
+      <id>02129c93-3ae5-4649-b62a-ee2201c94279</id>
       <masked>false</masked>
-      <name>name</name>
+      <name>productName3</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cd382913-c4b1-43b7-a4da-e44e17c728a2</id>
+      <id>d916a8a8-9a4c-46bd-b753-681b6dfc60a6</id>
       <masked>false</masked>
-      <name>descipation</name>
+      <name>productName4</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7e73cd15-9ca7-4927-b022-1f0d1aaef8b7</id>
+      <id>e8f1e0e5-ee1a-4515-bc7a-650a939cd8d5</id>
       <masked>false</masked>
-      <name>imageLocation</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>7be52832-0b22-4b47-83ff-576da1b065e0</id>
-      <masked>false</masked>
-      <name>price</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>a9361357-8171-40c8-821f-826e3f10ca98</id>
-      <masked>false</masked>
-      <name>transaction</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>f980596d-c462-447d-9942-54c596bfd74b</id>
-      <masked>false</masked>
-      <name>ProductId</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>a61cc5c2-34dc-4e55-a7b5-fea3ed260c1d</id>
-      <masked>false</masked>
-      <name>amount</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>75415d19-17ba-475d-bd84-d7cd1cccb4da</id>
-      <masked>false</masked>
-      <name>SaleOrderId</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2fb9d065-6932-47a7-aab3-e0ae77e1451d</id>
-      <masked>false</masked>
-      <name>SaleTransaction</name>
+      <name>productName5</name>
    </variable>
 </TestCaseEntity>

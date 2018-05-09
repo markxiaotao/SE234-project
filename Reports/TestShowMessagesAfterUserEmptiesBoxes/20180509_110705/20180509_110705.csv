@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowMessagesAfterUserEmptiesBoxes,Chrome 66.0.3359.139,"At the login page, The user can login to the system\r\nIf the user empties the user name box, the warning message \u201CUsername is required\u201D is\r\nshown\r\n If the user empties the password box, the warning message \u201CPassword is required\u201D is\r\nshown",2018-05-09 11:07:06,2018-05-09 11:07:20,13.311s,PASSED
+,,,,,,
+Test Cases/TESTCASE4,Chrome 66.0.3359.139,"At the login page, The user can login to the system\n\nIf the user empties the user name box, the warning message \u201CUsername is required\u201D is\nshown\n If the user empties the password box, the warning message \u201CPassword is required\u201D is\nshown",2018-05-09 11:07:07,2018-05-09 11:07:20,12.971s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 11:07:07,2018-05-09 11:07:10,2.758s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 11:07:10,2018-05-09 11:07:19,8.840s,PASSED
+doubleClick,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:19,0.175s,PASSED
+doubleClick,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:19,0.095s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:19,0.094s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:19,0.062s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:19,0.042s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 11:07:19,2018-05-09 11:07:20,0.647s,PASSED

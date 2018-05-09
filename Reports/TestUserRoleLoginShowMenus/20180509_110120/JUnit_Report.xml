@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestUserRoleLoginShowMenus" time="30" tests="0" failures="2" errors="0">
+   <testsuite name="TestUserRoleLoginShowMenus" tests="0" failures="2" errors="0" time="30" timestamp="2018-05-09 11:01:21" hostname="ASUS - 10.80.151.231" id="Test Suites/TestUserRoleLoginShowMenus">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838496905.png, C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838497168.png, C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838510380.png, C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838510637.png"/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="299683b2facebfc453e6fd13b1c2487f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE2" classname="Test Cases/TESTCASE2" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 11:01:21 - [TEST_CASE][FAILED] - Test Cases/TESTCASE2: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+
+2018-05-09 11:01:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:01:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:01:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:01:35 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:01:35 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:01:35 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:01:35 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:01:35 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:01:35 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:01:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:01:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:01:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:01:36 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:01:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:01:36 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+
+2018-05-09 11:01:37 - [MESSAGE][FAILED] - Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838496905.png]]
+
+2018-05-09 11:01:37 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838497168.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 11:01:21 - [TEST_CASE][FAILED] - Test Cases/TESTCASE2: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE2" classname="Test Cases/TESTCASE2" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 11:01:37 - [TEST_CASE][FAILED] - Test Cases/TESTCASE2: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+
+2018-05-09 11:01:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:01:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 11:01:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:01:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:01:48 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:01:48 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:01:48 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:01:48 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:01:49 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:01:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:01:49 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:01:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:01:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:01:50 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:01:50 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+
+2018-05-09 11:01:50 - [MESSAGE][FAILED] - Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838510380.png]]
+
+2018-05-09 11:01:50 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_110120\\1525838510637.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 11:01:37 - [TEST_CASE][FAILED] - Test Cases/TESTCASE2: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 11:01:21 - [TEST_SUITE][FAILED] - TestUserRoleLoginShowMenus: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-09 11:01:21 - [TEST_SUITE][FAILED] - TestUserRoleLoginShowMenus: Test Cases/TESTCASE2 FAILED because (of) Verify element text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' FAILED. (Root cause: Actual text 'Carts' and expected text 'Total Transaction' of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

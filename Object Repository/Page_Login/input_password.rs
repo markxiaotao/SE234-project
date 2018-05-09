@@ -3,7 +3,13 @@
    <description></description>
    <name>input_password</name>
    <tag></tag>
-   <elementGuidId>48462c30-82b7-40c5-8d0c-6e229ab34fec</elementGuidId>
+   <elementGuidId>667b1c94-cdf0-4603-b84f-985f100365f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'password' and @type = 'password']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -60,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>a</value>
+      <value>u</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

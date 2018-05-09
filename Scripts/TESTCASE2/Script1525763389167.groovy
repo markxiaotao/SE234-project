@@ -24,15 +24,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.39.163.150:8091/')
 
-WebUI.setText(findTestObject('Page_Login/input_username'), 'admin')
+WebUI.setText(findTestObject('Page_Login/input_username'), username)
 
-WebUI.setText(findTestObject('Page_Login/input_password'), 'admin')
+WebUI.setText(findTestObject('Page_Login/input_password'), password)
 
 WebUI.click(findTestObject('Page_Login/button_Login'))
 
 WebUI.verifyElementClickable(findTestObject('Page_Admin/Product_Menu'))
 
+WebUI.verifyElementText(findTestObject('Page_Admin/Product_Menu'), 'Products')
+
 WebUI.verifyElementClickable(findTestObject('Page_Admin/Total Transaction_Menu'))
+
+WebUI.verifyElementText(findTestObject('Page_Admin/Total Transaction_Menu'), 'Total Transaction')
 
 WebUI.closeBrowser()
 

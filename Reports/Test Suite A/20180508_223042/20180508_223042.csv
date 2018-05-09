@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite A,Chrome 66.0.3359.139,,2018-05-08 22:30:43,2018-05-08 22:30:54,10.319s,FAILED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-08 22:30:44,2018-05-08 22:30:53,9.281s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 22:30:44,2018-05-08 22:30:47,2.805s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 22:30:47,2018-05-08 22:30:51,4.070s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 22:30:51,2018-05-08 22:30:51,0.228s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 22:30:51,2018-05-08 22:30:51,0.132s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 22:30:51,2018-05-08 22:30:51,0.133s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 22:30:51,2018-05-08 22:30:53,1.668s,FAILED

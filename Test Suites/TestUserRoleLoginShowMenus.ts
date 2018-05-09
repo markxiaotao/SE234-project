@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestUserRoleLoginShowMenus</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-09T11:06:34</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>125bb83d-85f7-405c-80b7-b0a1d6281d42</testSuiteGuid>
+   <testCaseLink>
+      <guid>62cc7623-68b8-47bb-aa5d-60b1c42f16ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TESTCASE3</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>d4b605a0-0584-4763-90b4-799bdf6865fe</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/UserData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d4b605a0-0584-4763-90b4-799bdf6865fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>d88b0a0b-dfef-4971-b83c-cbd516c1bf46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d4b605a0-0584-4763-90b4-799bdf6865fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6cb64673-1dd3-4b3e-bfdd-eaa78ef49101</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

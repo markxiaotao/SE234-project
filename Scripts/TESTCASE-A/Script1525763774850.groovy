@@ -24,21 +24,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.39.163.150:8091/')
 
-WebUI.setText(findTestObject('Page_Product/Page_ProjectBackend/input_username'), username)
+WebUI.setText(findTestObject('Page_Login/input_username'), username)
 
-WebUI.setText(findTestObject('Page_Product/Page_ProjectBackend/input_password'), password)
+WebUI.setText(findTestObject('Page_Login/input_password'), password)
 
 WebUI.click(findTestObject('Page_Product/Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Garden'), name)
+WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Garden'), productName)
 
-WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Banana'), name)
+WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Banana'), productName2)
 
-WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Orange'), name)
+WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Orange'), productName3)
 
-WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Papaya'), name)
+WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Papaya'), productName4)
 
-WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Rambutan'), name)
+WebUI.verifyElementText(findTestObject('Page_Product/Page_ProjectBackend/h5_Rambutan'), productName5)
 
 WebUI.closeBrowser()
 

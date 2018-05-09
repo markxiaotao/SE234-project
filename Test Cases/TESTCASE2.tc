@@ -7,4 +7,18 @@ o If the user is admin role, the system will go to the admin page which consists
    <tag></tag>
    <comment></comment>
    <testCaseGuid>75b07b74-b1e2-4864-9b4f-ef9244f5df0a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cccbf4e6-dfb8-41b6-a77f-7104499c7bcd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e362fb7-d611-4f37-bf93-64ec16df7cfb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

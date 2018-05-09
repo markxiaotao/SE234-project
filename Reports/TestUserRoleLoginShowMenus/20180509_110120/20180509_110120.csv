@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestUserRoleLoginShowMenus,Chrome 66.0.3359.139,,2018-05-09 11:01:21,2018-05-09 11:01:51,30.068s,FAILED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-09 11:01:21,2018-05-09 11:01:37,15.581s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 11:01:22,2018-05-09 11:01:24,2.769s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 11:01:24,2018-05-09 11:01:35,10.421s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:01:35,2018-05-09 11:01:35,0.203s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:01:35,2018-05-09 11:01:35,0.118s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 11:01:35,2018-05-09 11:01:35,0.100s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 11:01:35,2018-05-09 11:01:36,1.074s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:01:36,2018-05-09 11:01:36,0.046s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 11:01:36,2018-05-09 11:01:36,0.034s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:01:36,2018-05-09 11:01:37,0.545s,FAILED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-09 11:01:37,2018-05-09 11:01:50,13.486s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 11:01:37,2018-05-09 11:01:40,2.616s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 11:01:40,2018-05-09 11:01:48,8.779s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:01:48,2018-05-09 11:01:48,0.152s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:01:48,2018-05-09 11:01:49,0.128s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 11:01:49,2018-05-09 11:01:49,0.101s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 11:01:49,2018-05-09 11:01:50,1.070s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:01:50,2018-05-09 11:01:50,0.034s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 11:01:50,2018-05-09 11:01:50,0.032s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:01:50,2018-05-09 11:01:50,0.564s,FAILED

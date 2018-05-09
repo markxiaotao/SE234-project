@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,Chrome 66.0.3359.139,,2018-05-08 22:24:00,2018-05-08 22:24:23,22.992s,FAILED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-08 22:24:00,2018-05-08 22:24:07,7.349s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 22:24:00,2018-05-08 22:24:03,2.782s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 22:24:03,2018-05-08 22:24:07,3.904s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 22:24:07,2018-05-08 22:24:07,0.376s,FAILED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-08 22:24:07,2018-05-08 22:24:15,7.554s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 22:24:07,2018-05-08 22:24:10,2.689s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 22:24:10,2018-05-08 22:24:15,4.507s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 22:24:15,2018-05-08 22:24:15,0.347s,FAILED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-08 22:24:15,2018-05-08 22:24:22,7.138s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 22:24:15,2018-05-08 22:24:18,2.635s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 22:24:18,2018-05-08 22:24:22,4.065s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 22:24:22,2018-05-08 22:24:22,0.435s,FAILED

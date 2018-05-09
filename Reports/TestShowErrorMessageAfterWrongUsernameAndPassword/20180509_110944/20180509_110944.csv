@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowErrorMessageAfterWrongUsernameAndPassword,Chrome 66.0.3359.139,,2018-05-09 11:09:46,2018-05-09 11:10:08,22.605s,PASSED
+,,,,,,
+Test Cases/TESTCASE5,Chrome 66.0.3359.139,"At the login page, The user can login to the system\n\nIf the user name and password is not correct, the error message, \u201CUsername/password\nis incorrect\u201D is shown",2018-05-09 11:09:46,2018-05-09 11:10:08,22.295s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 11:09:46,2018-05-09 11:09:49,2.749s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 11:09:49,2018-05-09 11:10:06,17.149s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:10:06,2018-05-09 11:10:06,0.170s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 11:10:06,2018-05-09 11:10:06,0.131s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 11:10:06,2018-05-09 11:10:06,0.112s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 11:10:06,2018-05-09 11:10:07,1.078s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 11:10:07,2018-05-09 11:10:08,0.654s,PASSED
