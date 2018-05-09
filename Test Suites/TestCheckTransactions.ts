@@ -2,10 +2,10 @@
 <TestSuiteEntity>
    <description>After selecting the products, if the user moves to the Carts page, all the selected products is shown in the cart page. The user can change the amount of products for each type of product, and the total price will be changed regarding to the input value.
 -If the user clicks confirm button, the transaction will be added.</description>
-   <name>TestCheckTransacation</name>
+   <name>TestCheckTransactions</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T14:39:28</lastRun>
+   <lastRun>2018-05-09T14:57:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

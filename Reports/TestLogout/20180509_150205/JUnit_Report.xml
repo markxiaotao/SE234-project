@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestLogout" time="144" tests="3" failures="0" errors="0">
+   <testsuite name="TestLogout" tests="3" failures="0" errors="0" time="144" timestamp="2018-05-09 15:02:16" hostname="weapon - DESKTOP-GLFQATP" id="Test Suites/TestLogout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestLogout\\20180509_150205"/>
+         <property name="logFiles" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestLogout\\20180509_150205\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="weapon - DESKTOP-GLFQATP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.191.1"/>
+         <property name="sessionId" value="edfa6e0de71e1fb74f38f4a457c57c6a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-D" classname="Test Cases/TESTCASE-D" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:02:17 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-D: Test Cases/TESTCASE-D
+
+2018-05-09 15:02:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:02:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:02:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:03:00 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:03:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:03:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:03:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:03:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:03:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:03:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:03:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:03:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-D" classname="Test Cases/TESTCASE-D" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:03:04 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-D: Test Cases/TESTCASE-D
+
+2018-05-09 15:03:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:03:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:03:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:03:48 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:03:48 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:03:48 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:03:48 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:03:49 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:03:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:03:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:03:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:03:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:03:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:03:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-D" classname="Test Cases/TESTCASE-D" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:03:51 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-D: Test Cases/TESTCASE-D
+
+2018-05-09 15:03:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:03:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:03:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:04:37 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:04:37 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:04:38 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-09 15:04:38 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:04:38 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-09 15:04:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-09 15:04:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-09 15:04:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:04:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ProjectBackend (1)/h2_Login' are matched.
+
+2018-05-09 15:04:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:04:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 15:02:16 - [TEST_SUITE][PASSED] - TestLogout: Test Cases/TESTCASE-D]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestCheckTransactions,Chrome 65.0.3325.181,"After selecting the products, if the user moves to the Carts page, all the selected products is shown in the cart page. The user can change the amount of products for each type of product, and the total price will be changed regarding to the input value.\n-If the user clicks confirm button, the transaction will be added.",2018-05-09 14:57:31,2018-05-09 14:58:29,57.635s,PASSED
+,,,,,,
+Test Cases/TESTCASE-C,Chrome 65.0.3325.181,,2018-05-09 14:57:32,2018-05-09 14:58:29,57.011s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 14:57:32,2018-05-09 14:57:37,5.005s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 14:57:37,2018-05-09 14:58:21,44.310s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:58:21,2018-05-09 14:58:22,0.487s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:58:22,2018-05-09 14:58:22,0.421s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:22,2018-05-09 14:58:23,0.221s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:58:23,2018-05-09 14:58:24,1.196s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:24,2018-05-09 14:58:24,0.351s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:24,2018-05-09 14:58:24,0.248s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:58:24,2018-05-09 14:58:24,0.085s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:58:24,2018-05-09 14:58:25,0.250s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:25,2018-05-09 14:58:25,0.150s,PASSED
+acceptAlert,Chrome 65.0.3325.181,,2018-05-09 14:58:25,2018-05-09 14:58:25,0.032s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:25,2018-05-09 14:58:25,0.223s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-05-09 14:58:25,2018-05-09 14:58:25,0.194s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:58:25,2018-05-09 14:58:26,0.555s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:58:26,2018-05-09 14:58:26,0.455s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:26,2018-05-09 14:58:26,0.161s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:58:26,2018-05-09 14:58:27,0.733s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:58:27,2018-05-09 14:58:27,0.082s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:58:27,2018-05-09 14:58:27,0.078s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-05-09 14:58:27,2018-05-09 14:58:29,1.131s,PASSED
