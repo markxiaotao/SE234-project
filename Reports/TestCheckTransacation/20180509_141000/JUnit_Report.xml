@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCheckTransacation" time="76" tests="0" failures="1" errors="0">
+   <testsuite name="TestCheckTransacation" tests="0" failures="1" errors="0" time="76" timestamp="2018-05-09 14:10:11" hostname="weapon - DESKTOP-GLFQATP" id="Test Suites/TestCheckTransacation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_141000"/>
+         <property name="logFiles" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_141000\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_141000\\1525849887428.png"/>
+         <property name="hostName" value="weapon - DESKTOP-GLFQATP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.191.1"/>
+         <property name="sessionId" value="15781cd41b3fc1ecb2c6455b8780cdfd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-C" classname="Test Cases/TESTCASE-C" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-05-09 14:10:12 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-C: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-09 14:10:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 14:10:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 14:10:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 14:10:55 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 14:10:55 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-09 14:11:27 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_141000\\1525849887428.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 14:10:12 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-C: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 14:10:11 - [TEST_SUITE][FAILED] - TestCheckTransacation: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 14:10:11 - [TEST_SUITE][FAILED] - TestCheckTransacation: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'user' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

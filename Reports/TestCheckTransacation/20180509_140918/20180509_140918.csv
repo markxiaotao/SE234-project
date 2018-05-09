@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestCheckTransacation,Chrome 65.0.3325.181,"After selecting the products, if the user moves to the Carts page, all the selected products is shown in the cart page. The user can change the amount of products for each type of product, and the total price will be changed regarding to the input value.\r\n-If the user clicks confirm button, the transaction will be added.",2018-05-09 14:09:29,2018-05-09 14:09:56,26.814s,FAILED
+,,,,,,
+Test Cases/TESTCASE-C,Chrome 65.0.3325.181,,2018-05-09 14:09:30,2018-05-09 14:09:55,25.416s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 14:09:30,2018-05-09 14:09:35,4.299s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 14:09:35,2018-05-09 14:09:40,5.543s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:09:40,2018-05-09 14:09:55,15.069s,FAILED

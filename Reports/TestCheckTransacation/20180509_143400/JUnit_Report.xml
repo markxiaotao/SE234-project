@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCheckTransacation" time="26" tests="0" failures="1" errors="0">
+   <testsuite name="TestCheckTransacation" tests="0" failures="1" errors="0" time="26" timestamp="2018-05-09 14:34:03" hostname="weapon - 10.80.153.230" id="Test Suites/TestCheckTransacation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_143400"/>
+         <property name="logFiles" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_143400\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_143400\\1525851267805.png"/>
+         <property name="hostName" value="weapon - 10.80.153.230"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.153.230"/>
+         <property name="sessionId" value="4c0b6419336b065397012d7886b54588"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-C" classname="Test Cases/TESTCASE-C" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)"/>
+         <system-out><![CDATA[2018-05-09 14:34:03 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-C: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)
+
+2018-05-09 14:34:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 14:34:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 14:34:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 14:34:23 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 14:34:23 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username'
+
+2018-05-09 14:34:23 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username'
+
+2018-05-09 14:34:23 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password'
+
+2018-05-09 14:34:24 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password'
+
+2018-05-09 14:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_Login' is clicked on
+
+2018-05-09 14:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_Login' is clicked on
+
+2018-05-09 14:34:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_CheckTransacationAfterAddProducts/h5_Garden' are matched.
+
+2018-05-09 14:34:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CheckTransacationAfterAddProducts/h5_Garden' are matched.
+
+2018-05-09 14:34:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_add to cart' is clicked on
+
+2018-05-09 14:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_add to cart' is clicked on
+
+2018-05-09 14:34:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/a_Carts            1' is clicked on
+
+2018-05-09 14:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/a_Carts            1' is clicked on
+
+2018-05-09 14:34:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_CheckTransacationAfterAddProducts/td_Garden' are matched.
+
+2018-05-09 14:34:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CheckTransacationAfterAddProducts/td_Garden' are matched.
+
+2018-05-09 14:34:26 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_amount'
+
+2018-05-09 14:34:26 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_amount'
+
+2018-05-09 14:34:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_confirm' is clicked on
+
+2018-05-09 14:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_confirm' is clicked on
+
+2018-05-09 14:34:27 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-09 14:34:27 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-09 14:34:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_Logout' is clicked on
+
+2018-05-09 14:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CheckTransacationAfterAddProducts/button_Logout' is clicked on
+
+2018-05-09 14:34:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username'
+
+2018-05-09 14:34:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_username'
+
+2018-05-09 14:34:27 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)
+
+2018-05-09 14:34:28 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestCheckTransacation\\20180509_143400\\1525851267805.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 14:34:03 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-C: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 14:34:03 - [TEST_SUITE][FAILED] - TestCheckTransacation: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)]]></system-out>
+      <system-err><![CDATA[2018-05-09 14:34:03 - [TEST_SUITE][FAILED] - TestCheckTransacation: Test Cases/TESTCASE-C FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Page_CheckTransacationAfterAddProducts/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GLFQATP', ip: '10.80.153.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\weapon\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 4c0b6419336b065397012d7886b54588)]]></system-err>
+   </testsuite>
+</testsuites>

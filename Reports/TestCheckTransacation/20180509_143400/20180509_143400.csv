@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestCheckTransacation,Chrome 65.0.3325.181,"After selecting the products, if the user moves to the Carts page, all the selected products is shown in the cart page. The user can change the amount of products for each type of product, and the total price will be changed regarding to the input value.\r\n-If the user clicks confirm button, the transaction will be added.",2018-05-09 14:34:03,2018-05-09 14:34:29,26.072s,FAILED
+,,,,,,
+Test Cases/TESTCASE-C,Chrome 65.0.3325.181,,2018-05-09 14:34:03,2018-05-09 14:34:28,24.541s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 14:34:04,2018-05-09 14:34:09,5.470s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 14:34:09,2018-05-09 14:34:23,13.686s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:34:23,2018-05-09 14:34:23,0.611s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:34:23,2018-05-09 14:34:24,0.306s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:34:24,2018-05-09 14:34:24,0.172s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:34:24,2018-05-09 14:34:26,1.807s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:34:26,2018-05-09 14:34:26,0.136s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:34:26,2018-05-09 14:34:26,0.278s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 14:34:26,2018-05-09 14:34:26,0.104s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:34:26,2018-05-09 14:34:26,0.226s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:34:26,2018-05-09 14:34:27,0.147s,PASSED
+acceptAlert,Chrome 65.0.3325.181,,2018-05-09 14:34:27,2018-05-09 14:34:27,0.054s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 14:34:27,2018-05-09 14:34:27,0.226s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:34:27,2018-05-09 14:34:27,0.232s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 14:34:27,2018-05-09 14:34:28,0.573s,FAILED

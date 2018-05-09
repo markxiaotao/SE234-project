@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAddProduct,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 13:42:15,2018-05-09 13:42:55,39.356s,PASSED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 13:42:16,2018-05-09 13:42:34,18.176s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 13:42:17,2018-05-09 13:42:23,6.780s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 13:42:23,2018-05-09 13:42:30,6.321s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 13:42:30,2018-05-09 13:42:30,0.637s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 13:42:30,2018-05-09 13:42:31,0.309s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:31,2018-05-09 13:42:31,0.171s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:31,2018-05-09 13:42:32,1.237s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:32,2018-05-09 13:42:32,0.170s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:32,2018-05-09 13:42:32,0.136s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:32,2018-05-09 13:42:33,0.332s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:33,2018-05-09 13:42:33,0.199s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:33,2018-05-09 13:42:33,0.180s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-05-09 13:42:33,2018-05-09 13:42:34,1.261s,PASSED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 13:42:34,2018-05-09 13:42:55,20.241s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 13:42:34,2018-05-09 13:42:39,4.123s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 13:42:39,2018-05-09 13:42:51,12.486s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 13:42:51,2018-05-09 13:42:51,0.334s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 13:42:51,2018-05-09 13:42:52,0.201s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:52,2018-05-09 13:42:52,0.279s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:52,2018-05-09 13:42:53,1.225s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:53,2018-05-09 13:42:53,0.124s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:53,2018-05-09 13:42:53,0.078s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 13:42:53,2018-05-09 13:42:53,0.199s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:53,2018-05-09 13:42:54,0.081s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 13:42:54,2018-05-09 13:42:54,0.072s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-05-09 13:42:54,2018-05-09 13:42:55,0.989s,PASSED
