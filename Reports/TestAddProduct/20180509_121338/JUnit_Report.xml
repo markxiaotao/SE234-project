@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAddProduct" time="117" tests="0" failures="2" errors="0">
+   <testsuite name="TestAddProduct" tests="0" failures="2" errors="0" time="117" timestamp="2018-05-09 12:13:49" hostname="weapon - DESKTOP-GLFQATP" id="Test Suites/TestAddProduct">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338"/>
+         <property name="logFiles" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842885131.png, C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842885565.png, C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842945068.png, C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842945475.png"/>
+         <property name="hostName" value="weapon - DESKTOP-GLFQATP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.191.1"/>
+         <property name="sessionId" value="48cc8d85affb375f19d73f0e0536b2b3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-B" classname="Test Cases/TESTCASE-B" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 12:13:49 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+
+2018-05-09 12:13:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:13:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:13:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 12:14:10 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 12:14:10 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 12:14:10 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 12:14:10 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 12:14:11 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 12:14:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 12:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 12:14:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 12:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 12:14:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 12:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 12:14:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 12:14:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 12:14:13 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+
+2018-05-09 12:14:45 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842885131.png]]
+
+2018-05-09 12:14:45 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842885565.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:13:49 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-B" classname="Test Cases/TESTCASE-B" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)"/>
+         <system-out><![CDATA[2018-05-09 12:14:45 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+
+2018-05-09 12:14:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 12:14:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 12:14:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 12:14:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 12:15:10 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 12:15:10 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 12:15:10 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 12:15:10 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 12:15:11 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 12:15:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 12:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 12:15:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 12:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 12:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 12:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 12:15:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 12:15:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 12:15:13 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+
+2018-05-09 12:15:45 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842945068.png]]
+
+2018-05-09 12:15:45 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)
+[[ATTACHMENT|C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAddProduct\\20180509_121338\\1525842945475.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 12:14:45 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 12:13:49 - [TEST_SUITE][FAILED] - TestAddProduct: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 12:13:49 - [TEST_SUITE][FAILED] - TestAddProduct: Test Cases/TESTCASE-B FAILED because (of) Verify element text of test object 'Object Repository/Page_AddProduct/td_Garden' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AddProduct/td_Garden' located by 'By.xpath: //td[(text() = 'Garden' or . = 'Garden')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

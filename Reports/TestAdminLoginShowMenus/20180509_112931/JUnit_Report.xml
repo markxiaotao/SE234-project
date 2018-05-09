@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAdminLoginShowMenus" time="27" tests="1" failures="0" errors="0">
+   <testsuite name="TestAdminLoginShowMenus" tests="1" failures="0" errors="0" time="27" timestamp="2018-05-09 11:29:35" hostname="weapon - 10.80.153.230" id="Test Suites/TestAdminLoginShowMenus">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAdminLoginShowMenus\\20180509_112931"/>
+         <property name="logFiles" value="C:\\Users\\weapon\\Desktop\\SE234-project\\Reports\\TestAdminLoginShowMenus\\20180509_112931\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="weapon - 10.80.153.230"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.153.230"/>
+         <property name="sessionId" value="e9e87b4a5e55955dde43a1bdb36a2e3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE2" classname="Test Cases/TESTCASE2" status="PASSED">
+         <system-out><![CDATA[2018-05-09 11:29:35 - [TEST_CASE][PASSED] - Test Cases/TESTCASE2: Test Cases/TESTCASE2
+
+2018-05-09 11:29:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:29:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:29:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:29:59 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 11:29:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:29:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 11:29:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:29:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 11:29:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 11:30:00 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:30:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 11:30:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:30:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/Product_Menu' are matched.
+
+2018-05-09 11:30:01 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:30:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Total Transaction_Menu' is clickable
+
+2018-05-09 11:30:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are matched.
+
+2018-05-09 11:30:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/Total Transaction_Menu' are matched.
+
+2018-05-09 11:30:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 11:30:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 11:29:35 - [TEST_SUITE][PASSED] - TestAdminLoginShowMenus: Test Cases/TESTCASE2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

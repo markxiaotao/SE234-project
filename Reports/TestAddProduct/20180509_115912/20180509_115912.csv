@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAddProduct,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 11:59:14,2018-05-09 12:00:03,49.247s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 11:59:15,2018-05-09 11:59:34,19.040s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 11:59:15,2018-05-09 11:59:19,4.024s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 11:59:19,2018-05-09 11:59:30,11.095s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:30,2018-05-09 11:59:30,0.376s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:30,2018-05-09 11:59:31,0.284s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:31,2018-05-09 11:59:31,0.180s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:31,2018-05-09 11:59:33,1.721s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:33,2018-05-09 11:59:33,0.145s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 11:59:33,2018-05-09 11:59:34,0.818s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 11:59:34,2018-05-09 11:59:49,15.282s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 11:59:34,2018-05-09 11:59:38,3.922s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 11:59:38,2018-05-09 11:59:46,8.450s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:46,2018-05-09 11:59:47,0.449s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:47,2018-05-09 11:59:47,0.220s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:47,2018-05-09 11:59:47,0.129s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:47,2018-05-09 11:59:48,1.216s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:48,2018-05-09 11:59:48,0.097s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 11:59:48,2018-05-09 11:59:49,0.708s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 11:59:49,2018-05-09 12:00:02,13.326s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 11:59:49,2018-05-09 11:59:53,3.690s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 11:59:53,2018-05-09 11:59:59,6.046s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:59,2018-05-09 11:59:59,0.415s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 11:59:59,2018-05-09 11:59:59,0.304s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 11:59:59,2018-05-09 12:00:00,0.183s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:00:00,2018-05-09 12:00:01,1.770s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:00:01,2018-05-09 12:00:02,0.162s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:00:02,2018-05-09 12:00:02,0.731s,FAILED

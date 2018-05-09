@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAddProduct,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:01:33,2018-05-09 12:02:04,31.488s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:01:34,2018-05-09 12:01:48,14.633s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 12:01:34,2018-05-09 12:01:38,3.938s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 12:01:38,2018-05-09 12:01:44,5.952s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:01:44,2018-05-09 12:01:45,0.712s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:01:45,2018-05-09 12:01:45,0.281s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:01:45,2018-05-09 12:01:45,0.197s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:01:45,2018-05-09 12:01:47,1.804s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:01:47,2018-05-09 12:01:47,0.231s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:01:47,2018-05-09 12:01:48,1.028s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:01:48,2018-05-09 12:02:03,15.316s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 12:01:48,2018-05-09 12:01:52,3.674s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 12:01:52,2018-05-09 12:02:00,8.338s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:02:00,2018-05-09 12:02:01,0.336s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:02:01,2018-05-09 12:02:01,0.201s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:02:01,2018-05-09 12:02:01,0.185s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:02:01,2018-05-09 12:02:03,1.668s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:02:03,2018-05-09 12:02:03,0.136s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:02:03,2018-05-09 12:02:03,0.697s,FAILED

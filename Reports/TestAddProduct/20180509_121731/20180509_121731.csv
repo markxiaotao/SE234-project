@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAddProduct,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:17:42,2018-05-09 12:19:41,1m - 59.548s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:17:42,2018-05-09 12:18:37,54.631s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 12:17:43,2018-05-09 12:17:47,3.960s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 12:17:47,2018-05-09 12:18:02,15.021s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:18:02,2018-05-09 12:18:02,0.384s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:18:02,2018-05-09 12:18:02,0.251s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:18:02,2018-05-09 12:18:03,0.254s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:18:03,2018-05-09 12:18:04,1.738s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:18:04,2018-05-09 12:18:04,0.131s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:18:04,2018-05-09 12:18:05,0.097s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:18:05,2018-05-09 12:18:37,32.364s,FAILED
+,,,,,,
+Test Cases/TESTCASE-B,Chrome 65.0.3325.181,"When the user enters the Products page, and clicked at the add to cart button, the button will be changed to already added, and the number of selected products is shown next to the Carts menu.",2018-05-09 12:18:37,2018-05-09 12:19:40,1m - 3.397s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-09 12:18:37,2018-05-09 12:18:40,3.552s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-05-09 12:18:40,2018-05-09 12:19:06,25.014s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:19:06,2018-05-09 12:19:06,0.362s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-09 12:19:06,2018-05-09 12:19:06,0.171s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:19:06,2018-05-09 12:19:06,0.127s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:19:06,2018-05-09 12:19:08,1.691s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-09 12:19:08,2018-05-09 12:19:08,0.160s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:19:08,2018-05-09 12:19:08,0.071s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-05-09 12:19:08,2018-05-09 12:19:40,32.227s,FAILED
