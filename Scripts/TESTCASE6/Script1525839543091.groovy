@@ -18,4 +18,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://52.39.163.150:8091/')
+
+WebUI.setText(findTestObject('Page_Login/input_username'), username)
+
+WebUI.setText(findTestObject('Page_Login/input_password'), password)
+
+WebUI.click(findTestObject('Page_Login/button_Login'))
+
+WebUI.click(findTestObject('Page_Admin/a_Total Transaction'))
+
+WebUI.verifyElementText(findTestObject('Page_Admin/h2_Transaction List'), 'Transaction List')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_1'), '1')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_Garden Papaya'), 'Garden, Papaya')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_2'), '2')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_Banana Garden Banana Rambut'), 'Banana, Garden, Banana, Rambutan')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_3'), '3')
+
+WebUI.verifyElementText(findTestObject('Page_Admin/td_Rambutan'), 'Rambutan')
+
+WebUI.closeBrowser()
 
