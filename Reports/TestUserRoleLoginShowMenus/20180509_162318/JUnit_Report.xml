@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestUserRoleLoginShowMenus" time="40" tests="2" failures="0" errors="0">
+   <testsuite name="TestUserRoleLoginShowMenus" tests="2" failures="0" errors="0" time="40" timestamp="2018-05-09 16:23:20" hostname="ASUS - 10.80.151.231" id="Test Suites/TestUserRoleLoginShowMenus">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_162318"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestUserRoleLoginShowMenus\\20180509_162318\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="7f61116b83f10f658adf18dc6126e1d5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE3" classname="Test Cases/TESTCASE3" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:23:21 - [TEST_CASE][PASSED] - Test Cases/TESTCASE3: Test Cases/TESTCASE3
+
+2018-05-09 16:23:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:23:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:23:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:23:35 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:23:35 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:23:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:23:36 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:23:36 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:23:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:23:36 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 16:23:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 16:23:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_User/Product_Menu' are matched.
+
+2018-05-09 16:23:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_User/Product_Menu' are matched.
+
+2018-05-09 16:23:37 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_User/Carts_Menu' is clickable
+
+2018-05-09 16:23:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User/Carts_Menu' is clickable
+
+2018-05-09 16:23:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_User/Carts_Menu' are matched.
+
+2018-05-09 16:23:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_User/Carts_Menu' are matched.
+
+2018-05-09 16:23:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:23:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE3" classname="Test Cases/TESTCASE3" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:23:38 - [TEST_CASE][PASSED] - Test Cases/TESTCASE3: Test Cases/TESTCASE3
+
+2018-05-09 16:23:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:23:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:23:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:23:59 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:23:59 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:23:59 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:23:59 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:23:59 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:23:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:23:59 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 16:24:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Admin/Product_Menu' is clickable
+
+2018-05-09 16:24:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_User/Product_Menu' are matched.
+
+2018-05-09 16:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_User/Product_Menu' are matched.
+
+2018-05-09 16:24:00 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_User/Carts_Menu' is clickable
+
+2018-05-09 16:24:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User/Carts_Menu' is clickable
+
+2018-05-09 16:24:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_User/Carts_Menu' are matched.
+
+2018-05-09 16:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_User/Carts_Menu' are matched.
+
+2018-05-09 16:24:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:24:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 16:23:20 - [TEST_SUITE][PASSED] - TestUserRoleLoginShowMenus: Test Cases/TESTCASE3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

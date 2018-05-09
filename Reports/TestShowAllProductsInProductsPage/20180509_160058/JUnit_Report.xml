@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestShowAllProductsInProductsPage" time="97" tests="0" failures="3" errors="0">
+   <testsuite name="TestShowAllProductsInProductsPage" tests="0" failures="3" errors="0" time="97" timestamp="2018-05-09 16:00:59" hostname="ASUS - 10.80.151.231" id="Test Suites/TestShowAllProductsInProductsPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856509720.png, C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856534278.png, C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856555848.png"/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="270a3b39b0b51626fb8215254b387731"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-09 16:00:59 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:01:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:01:47 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:01:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:01:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:01:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:01:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:01:47 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:01:49 - [MESSAGE][WARNING] - Cannot find test object with id 'Object Repository/Page_Product/button_Login' because of 'org.dom4j.DocumentException: Error on line 1 of document file:///C:/Users/ASUS/Katalon%20Studio/SE234-project/Object%20Repository/Page_Product/button_Login.rs : The markup in the document preceding the root element must be well-formed. Nested exception: The markup in the document preceding the root element must be well-formed.'
+
+2018-05-09 16:01:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-09 16:01:49 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856509720.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:00:59 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-09 16:01:49 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:01:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:01:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 16:01:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:01:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:02:13 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:02:13 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:02:14 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:02:14 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:02:14 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:02:14 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:02:14 - [MESSAGE][WARNING] - Cannot find test object with id 'Object Repository/Page_Product/button_Login' because of 'org.dom4j.DocumentException: Error on line 1 of document file:///C:/Users/ASUS/Katalon%20Studio/SE234-project/Object%20Repository/Page_Product/button_Login.rs : The markup in the document preceding the root element must be well-formed. Nested exception: The markup in the document preceding the root element must be well-formed.'
+
+2018-05-09 16:02:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-09 16:02:14 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856534278.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:01:49 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-A" classname="Test Cases/TESTCASE-A" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-09 16:02:14 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:02:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:02:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 16:02:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:02:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:02:35 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:02:35 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:02:35 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:02:35 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:02:35 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:02:35 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-09 16:02:35 - [MESSAGE][WARNING] - Cannot find test object with id 'Object Repository/Page_Product/button_Login' because of 'org.dom4j.DocumentException: Error on line 1 of document file:///C:/Users/ASUS/Katalon%20Studio/SE234-project/Object%20Repository/Page_Product/button_Login.rs : The markup in the document preceding the root element must be well-formed. Nested exception: The markup in the document preceding the root element must be well-formed.'
+
+2018-05-09 16:02:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-09 16:02:36 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowAllProductsInProductsPage\\20180509_160058\\1525856555848.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:02:14 - [TEST_CASE][FAILED] - Test Cases/TESTCASE-A: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 16:00:59 - [TEST_SUITE][FAILED] - TestShowAllProductsInProductsPage: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-09 16:00:59 - [TEST_SUITE][FAILED] - TestShowAllProductsInProductsPage: Test Cases/TESTCASE-A FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

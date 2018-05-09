@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowALLTransactionsAfterAdminClickTotalTransaction,Chrome 66.0.3359.139,"If the user login to the admin page, when open the \u201CTotal Transaction\u201D menu, all the carts,\nwhich have been added must be shown with the summaries of all carts.",2018-05-09 16:18:31,2018-05-09 16:19:03,31.754s,PASSED
+,,,,,,
+Test Cases/TESTCASE6,Chrome 66.0.3359.139,,2018-05-09 16:18:31,2018-05-09 16:19:03,31.373s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:18:32,2018-05-09 16:18:34,2.761s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:18:34,2018-05-09 16:19:00,25.306s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:19:00,2018-05-09 16:19:00,0.178s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:19:00,2018-05-09 16:19:00,0.122s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:19:00,2018-05-09 16:19:00,0.098s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:19:00,2018-05-09 16:19:01,1.132s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:01,2018-05-09 16:19:01,0.060s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:01,2018-05-09 16:19:02,0.554s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:02,0.038s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:02,0.040s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:02,0.048s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:02,0.042s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:02,0.039s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 16:19:02,2018-05-09 16:19:03,0.680s,PASSED

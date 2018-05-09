@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
    <name>h5_Orange</name>
    <tag></tag>
-   <elementGuidId>3ce97c7f-ea86-455d-b080-40547f7d7e2d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/h5[@class=&quot;farmer-name&quot;][count(. | //h5[(text() = 'Orange' or . = 'Orange')]) = count(//h5[(text() = 'Orange' or . = 'Orange')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8b53ea1d-7b7b-4134-9f9c-e970307050d4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,55 +28,10 @@
       <value>Orange</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/h5[@class=&quot;farmer-name&quot;]</value>
-   </webElementProperties>
-</WebElementEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<WebElementEntity>
-   <description></description>
-   <name>h5_Orange</name>
-   <tag></tag>
-   <elementGuidId>3ce97c7f-ea86-455d-b080-40547f7d7e2d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/h5[@class=&quot;farmer-name&quot;][count(. | //h5[(text() = 'Orange' or . = 'Orange')]) = count(//h5[(text() = 'Orange' or . = 'Orange')])]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>h5</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>farmer-name</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Orange</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/h5[@class=&quot;farmer-name&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
->>>>>>> branch 'master' of https://github.com/markxiaotao/SE234-project.git

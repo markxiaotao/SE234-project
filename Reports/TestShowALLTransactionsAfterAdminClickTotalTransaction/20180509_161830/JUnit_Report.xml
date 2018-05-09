@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestShowALLTransactionsAfterAdminClickTotalTransaction" time="31" tests="1" failures="0" errors="0">
+   <testsuite name="TestShowALLTransactionsAfterAdminClickTotalTransaction" tests="1" failures="0" errors="0" time="31" timestamp="2018-05-09 16:18:31" hostname="ASUS - 10.80.151.231" id="Test Suites/TestShowALLTransactionsAfterAdminClickTotalTransaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowALLTransactionsAfterAdminClickTotalTransaction\\20180509_161830"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestShowALLTransactionsAfterAdminClickTotalTransaction\\20180509_161830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="9e69256a7341f656658e54b4fb6ed5d4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE6" classname="Test Cases/TESTCASE6" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:18:31 - [TEST_CASE][PASSED] - Test Cases/TESTCASE6: Test Cases/TESTCASE6
+
+2018-05-09 16:18:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:18:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:18:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:19:00 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 16:19:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:19:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-05-09 16:19:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:19:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_password'
+
+2018-05-09 16:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2018-05-09 16:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin/a_Total Transaction' is clicked on
+
+2018-05-09 16:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin/a_Total Transaction' is clicked on
+
+2018-05-09 16:19:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/h2_Transaction List' are matched.
+
+2018-05-09 16:19:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/h2_Transaction List' are matched.
+
+2018-05-09 16:19:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_1' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_1' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_Garden Papaya' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_Garden Papaya' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_2' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_2' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_Banana Garden Banana Rambut' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_Banana Garden Banana Rambut' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_3' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_3' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin/td_Rambutan' are matched.
+
+2018-05-09 16:19:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin/td_Rambutan' are matched.
+
+2018-05-09 16:19:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:19:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 16:18:31 - [TEST_SUITE][PASSED] - TestShowALLTransactionsAfterAdminClickTotalTransaction: Test Cases/TESTCASE6]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

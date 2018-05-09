@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Page_Login/input_username'), username)
 
 WebUI.setText(findTestObject('Page_Login/input_password'), password)
 
-WebUI.click(findTestObject('Page_Product/button_Login'))
+WebUI.click(findTestObject('Page_Login/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Page_Product/h5_Garden'), productName)
 

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowAllProductsInProductsPage,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:00:59,2018-05-09 16:02:36,1m - 37.172s,FAILED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:00:59,2018-05-09 16:01:49,50.029s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:01:00,2018-05-09 16:01:03,2.809s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:47,44.274s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:01:47,2018-05-09 16:01:47,0.220s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:01:47,2018-05-09 16:01:47,0.142s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:01:47,2018-05-09 16:01:49,2.255s,FAILED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:01:49,2018-05-09 16:02:14,24.558s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:01:50,2018-05-09 16:01:52,2.668s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:01:52,2018-05-09 16:02:13,21.289s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:02:13,2018-05-09 16:02:14,0.169s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:02:14,2018-05-09 16:02:14,0.142s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:02:14,2018-05-09 16:02:14,0.275s,FAILED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:02:14,2018-05-09 16:02:36,21.575s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:02:14,2018-05-09 16:02:17,2.678s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:02:17,2018-05-09 16:02:35,18.277s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:02:35,2018-05-09 16:02:35,0.175s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:02:35,2018-05-09 16:02:35,0.147s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:02:35,2018-05-09 16:02:36,0.284s,FAILED

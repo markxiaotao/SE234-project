@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAddProduct" time="170" tests="2" failures="0" errors="0">
+   <testsuite name="TestAddProduct" tests="2" failures="0" errors="0" time="170" timestamp="2018-05-09 15:37:39" hostname="ASUS - 10.80.151.231" id="Test Suites/TestAddProduct">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestAddProduct\\20180509_153737"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SE234-project\\Reports\\TestAddProduct\\20180509_153737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - 10.80.151.231"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.151.231"/>
+         <property name="sessionId" value="4affa69ab81221cd49edba91e9520e40"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TESTCASE-B" classname="Test Cases/TESTCASE-B" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:37:39 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B
+
+2018-05-09 15:37:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:37:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:37:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:38:55 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:38:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 15:38:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 15:38:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 15:38:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 15:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 15:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 15:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/a_Carts            1' is clicked on
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/a_Carts            1' is clicked on
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/h2_Shopping Cart' are matched.
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/h2_Shopping Cart' are matched.
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/td_Garden' are matched.
+
+2018-05-09 15:38:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/td_Garden' are matched.
+
+2018-05-09 15:38:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:38:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TESTCASE-B" classname="Test Cases/TESTCASE-B" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:38:58 - [TEST_CASE][PASSED] - Test Cases/TESTCASE-B: Test Cases/TESTCASE-B
+
+2018-05-09 15:38:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:39:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:39:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:40:05 - [MESSAGE][PASSED] - Navigate to 'http://52.39.163.150:8091/' successfully
+
+2018-05-09 15:40:05 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 15:40:05 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_username'
+
+2018-05-09 15:40:05 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 15:40:05 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_AddProduct/input_password'
+
+2018-05-09 15:40:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 15:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_Login' is clicked on
+
+2018-05-09 15:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 15:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/h5_Garden' is clicked on
+
+2018-05-09 15:40:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 15:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/button_add to cart' is clicked on
+
+2018-05-09 15:40:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 15:40:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/div_already added' are matched.
+
+2018-05-09 15:40:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_AddProduct/a_Carts            1' is clicked on
+
+2018-05-09 15:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AddProduct/a_Carts            1' is clicked on
+
+2018-05-09 15:40:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/h2_Shopping Cart' are matched.
+
+2018-05-09 15:40:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/h2_Shopping Cart' are matched.
+
+2018-05-09 15:40:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_AddProduct/td_Garden' are matched.
+
+2018-05-09 15:40:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AddProduct/td_Garden' are matched.
+
+2018-05-09 15:40:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:40:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 15:37:39 - [TEST_SUITE][PASSED] - TestAddProduct: Test Cases/TESTCASE-B]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

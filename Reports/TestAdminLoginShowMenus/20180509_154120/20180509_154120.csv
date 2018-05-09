@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestAdminLoginShowMenus,Chrome 66.0.3359.139,"At the login page, The user can login to the system\n If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-09 15:41:22,2018-05-09 15:43:16,1m - 54.375s,PASSED
+,,,,,,
+Test Cases/TESTCASE2,Chrome 66.0.3359.139,"At the login page, The user can login to the system\no If the user is admin role, the system will go to the admin page which consists of\n\u201CProducts\u201D, and \u201CTotal Transaction\u201D menus",2018-05-09 15:41:22,2018-05-09 15:43:16,1m - 54.016s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 15:41:22,2018-05-09 15:41:25,2.848s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 15:41:25,2018-05-09 15:43:12,1m - 47.271s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:43:12,2018-05-09 15:43:13,0.269s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:43:13,2018-05-09 15:43:13,0.176s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:43:13,2018-05-09 15:43:13,0.144s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 15:43:13,2018-05-09 15:43:15,2.119s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 15:43:15,2018-05-09 15:43:15,0.055s,PASSED
+verifyElementClickable,Chrome 66.0.3359.139,,2018-05-09 15:43:15,2018-05-09 15:43:15,0.066s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 15:43:15,2018-05-09 15:43:15,0.075s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-09 15:43:15,2018-05-09 15:43:16,0.695s,PASSED

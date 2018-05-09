@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestShowAllProductsInProductsPage,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:04:47,2018-05-09 16:06:34,1m - 46.404s,ERROR
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:04:48,2018-05-09 16:05:32,44.029s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:04:48,2018-05-09 16:04:51,2.785s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:04:51,2018-05-09 16:05:31,40.368s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:05:31,2018-05-09 16:05:31,0.193s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:05:31,2018-05-09 16:05:32,0.132s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:05:32,2018-05-09 16:05:32,0.117s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:05:32,2018-05-09 16:05:32,0.036s,PASSED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:05:32,2018-05-09 16:06:02,30.580s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:05:32,2018-05-09 16:05:34,2.729s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:05:34,2018-05-09 16:06:02,27.478s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:06:02,2018-05-09 16:06:02,0.136s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:06:02,2018-05-09 16:06:02,0.113s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:06:02,2018-05-09 16:06:02,0.093s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:06:02,2018-05-09 16:06:02,0.004s,PASSED
+,,,,,,
+Test Cases/TESTCASE-A,Chrome 66.0.3359.139,"When the user is in the Products page, all the available products are shown in the web page",2018-05-09 16:06:02,2018-05-09 16:06:33,30.753s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:06:02,2018-05-09 16:06:05,2.655s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 16:06:05,2018-05-09 16:06:33,27.741s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:06:33,2018-05-09 16:06:33,0.144s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:06:33,2018-05-09 16:06:33,0.112s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:06:33,2018-05-09 16:06:33,0.084s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 16:06:33,2018-05-09 16:06:33,0.003s,PASSED

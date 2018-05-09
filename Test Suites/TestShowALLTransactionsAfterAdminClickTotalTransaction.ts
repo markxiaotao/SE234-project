@@ -5,7 +5,7 @@ which have been added must be shown with the summaries of all carts.</descriptio
    <name>TestShowALLTransactionsAfterAdminClickTotalTransaction</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T12:07:41</lastRun>
+   <lastRun>2018-05-09T16:18:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
